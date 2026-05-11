@@ -1,5 +1,6 @@
 # austria-labor-market-analysis
 Scraped and mined 15,599 Austrian job postings using R; identified that non-Vienna postings are systematically less graduate-relevant, less English-friendly, and less remote-work-accessible than Vienna postings, using LPM, Lasso, and Random Forest models.
+
 # Project Description: **Demand-Side Frictions and the Regional Mismatch in Austria's Labour Market for International Graduates**
 
 Austria records one of the highest job vacancy rates in the EU, yet international Master's graduates from Austrian universities either cluster in Vienna or leave the country entirely - with approximately 46% departing shortly after graduation. The dominant explanation in the literature focuses on workers: their mobility constraints, language barriers, and social ties. This project asked a different question: are employers in non-Vienna regions actually posting jobs in ways that are accessible and relevant to internationally trained graduates in the first place?
@@ -15,9 +16,6 @@ The findings reframe the policy conversation: the problem is not only that gradu
 # Demand-Side Frictions in Austria's Labour Market for International Graduates
 
 Scraping, text mining, and modelling 15,599 AMS job postings to identify structural barriers facing internationally trained graduates outside Vienna.
-
-> **Supervised by Dr. Martin Kahanec**, Member of the Group of Chief Scientific Advisors to the European Commission  
-> Central European University — Public Policy Practicum, 2026 | **Grade: highest distinction**
 
 ---
 
