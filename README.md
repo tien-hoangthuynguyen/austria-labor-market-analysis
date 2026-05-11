@@ -1,22 +1,6 @@
 # austria-labor-market-analysis
 Scraped and mined 15,599 Austrian job postings using R; identified that non-Vienna postings are systematically less graduate-relevant, less English-friendly, and less remote-work-accessible than Vienna postings, using LPM, Lasso, and Random Forest models.
 
-# Project Description: **Demand-Side Frictions and the Regional Mismatch in Austria's Labour Market for International Graduates**
-
-Austria records one of the highest job vacancy rates in the EU, yet international Master's graduates from Austrian universities either cluster in Vienna or leave the country entirely - with approximately 46% departing shortly after graduation. The dominant explanation in the literature focuses on workers: their mobility constraints, language barriers, and social ties. This project asked a different question: are employers in non-Vienna regions actually posting jobs in ways that are accessible and relevant to internationally trained graduates in the first place?
-
-To answer it, I scraped 15,599 job postings from Austria's public employment platform (AMS) across five metropolitan labour markets — Vienna, Linz, Graz, Salzburg, and Innsbruck — using R. After stripping HTML markup and cleaning the raw text, I extracted six binary variables from each posting using regular expression matching: whether the posting required a university degree, was written in or referenced English, explicitly required German language proficiency, disclosed a salary, offered remote or hybrid work, and targeted junior or entry-level candidates.
-
-I then estimated six linear probability models to test whether non-Vienna location systematically predicted each posting characteristic, controlling for working time. To validate the findings, I ran Lasso regression with ten-fold cross-validation as a variable selection check, and trained a Random Forest classifier to assess the joint predictive power of posting characteristics on regional location, using permutation-based variable importance scores for interpretability.
-
-The results converged across all three methods. Non-Vienna postings are significantly less likely to require a degree, reference English, or offer remote work — and significantly less likely to explicitly state German language requirements, suggesting employers assume proficiency rather than advertise it, creating an invisible but structurally demanding barrier. The one dimension where non-Vienna outperforms Vienna is salary transparency.
-
-The findings reframe the policy conversation: the problem is not only that graduates will not relocate, but that regional job postings are structurally ill-suited to attract them. The most direct levers for regional employers are degree-relevant role design, English-language or bilingual postings, and remote work options.
-
-# Demand-Side Frictions in Austria's Labour Market for International Graduates
-
-Scraping, text mining, and modelling 15,599 AMS job postings to identify structural barriers facing internationally trained graduates outside Vienna.
-
 ---
 
 ## Research question
