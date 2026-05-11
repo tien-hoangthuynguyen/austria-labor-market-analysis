@@ -114,4 +114,4 @@ Regional employer support programmes should focus on posting-level signals, not 
 
 **Nguyen Hoang Thuy Tien**  
 MA Public Policy, Central European University (Vienna)  
-[LinkedIn](https://www.linkedin.com/in/tien-nguyen)
+[LinkedIn](https://www.linkedin.com/in/tien-nht/)
